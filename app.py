@@ -13,8 +13,8 @@ no_data=True
 
 
 app=Flask(__name__)
-app.register_blueprint(views, url_prefix="/views")
-
+app.register_blueprint(views, url_prefix="/")
+app.run()
 
 
 #--------------------------------------------------
